@@ -6,11 +6,11 @@ const channel = supabaseClient.channel("typewriter-room");
 
 // ===== Звуки (то же, что в script.js) =====
 const sounds = {
-  keys: ["sounds/key1.mp3", "sounds/key2.mp3", "sounds/key3.mp3"],
-  space: "sounds/space.mp3",
-  bell: "sounds/bell.mp3",
-  return: "sounds/return.mp3",
-  backspace: "sounds/backspace.mp3",
+  keys: ["sounds/key1.wav", "sounds/key2.wav", "sounds/key3.wav"],
+  space: "sounds/space.wav",
+  bell: "sounds/bell.wav",
+  return: "sounds/return.wav",
+//  backspace: "sounds/backspace.mp3",
 };
 
 function playSound(path) {
